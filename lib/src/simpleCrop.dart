@@ -458,9 +458,9 @@ class _CropPainter extends CustomPainter {
     }
 
     paint.color = Color.fromRGBO(
-        0x0,
-        0x0,
-        0x0,
+        0xff,
+        0xff,
+        0xff,
         _kCropOverlayActiveOpacity * active +
             _kCropOverlayInactiveOpacity * (1.0 - active));
     final boundaries = currentBoundaries(size);
