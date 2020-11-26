@@ -483,8 +483,8 @@ class _CropPainter extends CustomPainter {
     canvas.drawRect(Rect.fromLTRB(0.0, 0.0, rect.width, rect.height), paint);
     paint
       ..isAntiAlias = true
-      ..color = Colors.white
-      ..strokeWidth = 0
+      ..color = Colors.transparent
+      ..strokeWidth = 2
       ..style = PaintingStyle.stroke;
     if (chipShape == ChipShape.rect) {
       canvas.drawRect(
